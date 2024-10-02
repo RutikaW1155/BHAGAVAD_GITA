@@ -1,0 +1,276 @@
+/* Reset default margin and padding */
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Body styles */
+body {
+    background-color: #333;
+    color: #fff; /* Set text color to white for readability */
+    font-family: Arial, sans-serif;
+    /* margin: 0px;
+    padding:; */
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+/* Global styles */
+body {
+    font-family: Inter, sans-serif;
+    /* color: #e8e6e3; */
+    background-color: #333;
+    /* background-color: rgb(24, 26, 27); */
+}
+.nav-icon-home
+{
+    fill: orange;
+}
+
+ .nav-link,
+ .nav-item {
+    fill: orange;
+}
+/* SVG icon specific styles */
+.custom-navbar .nav-link .bi-vinyl {
+    fill: orange !important; /* Change the fill color to orange */
+}
+/* Navigation styles */
+
+
+/* Custom navbar background and text color */
+/* Custom navbar background and text color */
+.custom-navbar {
+    background-color: #333 !important;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link,
+.custom-navbar .nav-item .dropdown-menu,
+.custom-navbar .form-inline input,
+.custom-navbar .form-inline button {
+    color: white !important;
+
+   
+}
+
+.custom-navbar .navbar-brand{
+    font-weight: 900;
+    font-style: normal;
+    font-display: solid;
+    font-size: 18px; /* Adjust as needed for larger text */
+    line-height: 2; /* Adjust as needed for taller text */
+    font-display: flex;
+    padding-left: 20%;
+    padding-right: 10%;
+    text-decoration: solid;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+}
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link:focus {
+    color: #ddd !important;
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.custom-navbar .dropdown-menu {
+    background-color: #333 !important;
+}
+
+.custom-navbar .dropdown-item {
+    color: white !important;
+}
+
+.custom-navbar .dropdown-item:hover,
+.custom-navbar .dropdown-item:focus {
+    background-color: #333 !important;
+    color: #ddd !important;
+}
+
+/* Override the default Bootstrap button outline color */
+.custom-navbar .btn-outline-success {
+    color: white !important;
+    border-color: white !important;
+}
+
+.custom-navbar .btn-outline-success:hover {
+    background-color: #333 !important;
+    border-color: #555 !important;
+}
+
+/* Main image section */
+.main-img {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.main-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Content section */
+.full_chapter {
+    /* background-color: #fff; */
+    background-color: #333;
+    /* padding: 2rem; */
+    /* margin: 2rem auto; */
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chapters {
+    text-align: center;
+    font-size: 2rem;
+    /* margin-bottom: 2rem; */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.box {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border: 1px solid #d1ceda;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+.chap {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.ch {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.p a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.p a:hover {
+    color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+#contentContainer {
+    background-color: #333;
+    max-width: 800px; /*Adjust as needed*/
+    margin: 0 auto; /* Center align horizontally */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.box {
+    background-color: #f3f4f6;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.chap {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align-last: center;
+}
+
+.ch {
+    font-size: 1.2rem;
+    color: #333;
+    text-align-last: center;
+}
+
+.p {
+    margin-top: 0.5rem;
+}
+
+.verse {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align-last: center;
+}
+
+.sanskrit {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.translations,
+.commentaries {
+    margin-top: 10px;
+}
+
+.translations h3,
+.commentaries h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.translation,
+.commentary {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-left: 3px solid #db6c34;
+    background-color: #e38c5a;
+}
+
+.translation p,
+.commentary p {
+    margin-bottom: 5px;
+}
+
+.author {
+    font-size: 0.9rem;
+    color: #555;
+}
